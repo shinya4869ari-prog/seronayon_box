@@ -1,0 +1,3 @@
+surface,lemma,pos,translation_ja,example_ko,example_ja,tags
+vegetables,vegetable,noun,"[""野菜""]","I chopped the vegetables.","私は野菜を刻んだ。","料理,初級"
+stir-fry,stir-fry,verb,"[""炒める"",""フライパンで炒める""]","Stir-fry the vegetables on high heat.","強火で野菜を炒めてください。","料理,動詞"

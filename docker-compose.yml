@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  honyakun:
+    build: ./server
+    container_name: honyakun_server
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./server/data:/app/data
+      - ./server/dict_csv:/app/dict_csv
+    env_file:
+      - .env

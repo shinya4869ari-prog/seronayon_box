@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>ほんや君 — Local PWA</title>
+  <style>body{font-family:system-ui, -apple-system, sans-serif;padding:12px;background:#f7f9fc}textarea{width:100%;min-height:120px}</style>
+</head>
+<body>
+  <h1>ほんや君（Local）</h1>
+  <p>検索スニペットを貼って「解析」→ ローカル辞書に照会します。</p>
+  <textarea id="text" placeholder="예: 야채볶음 만드는 법 ..."></textarea>
+  <div style="margin-top:8px">
+    <button id="analyzeBtn">解析</button>
+    <button id="saveBtn">カードをローカル保存</button>
+  </div>
+  <div id="result" style="margin-top:12px"></div>
+  <script src="app.autotranslate.js"></script>
+</body>
+</html>
